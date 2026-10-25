@@ -123,7 +123,7 @@ The main repository intentionally excludes test suites, audit reports, patches, 
 ## Authors and License
 
 **Original author (according to source metadata):** 3D Room Viewer Studio.  
-**GitHub publication and maintenance:** Dam4 — [@Regevedy](https://github.com/Regevedy).  
+**GitHub publication and maintenance:** CaoK1d13 — [@Regevedy](https://github.com/Regevedy).  
 **Copyright:** © 2026 3D Room Viewer Studio.
 
 See [AUTHORS.md](AUTHORS.md) for details.
