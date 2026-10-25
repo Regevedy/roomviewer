@@ -4,7 +4,7 @@
 
 **Platform:** Windows 10/11 x64 · **Status:** Old Build (OB) · **Graphics:** WebGL 2.0 · **Source Technologies:** Electron, HTML/CSS/JavaScript.
 
-**Download the ready-to-use build:** [GitHub Releases](https://github.com/Regevedy/Room-Viewer/releases) (once the release is published).
+**Download the ready-to-use build:** [GitHub Releases](https://github.com/Regevedy/RoomViewer/releases) (once the release is published).
 
 ## Features
 
@@ -38,7 +38,7 @@
 
 ## Quick Start: Windows Portable Build
 
-1. Open [Releases](https://github.com/Regevedy/Room-Viewer/releases) and find **v1.0.1101-OB**.
+1. Open [Releases](https://github.com/Regevedy/RoomViewer/releases) and find **v1.0.1101-OB**.
 2. Download `Room_Viewer_1.0_Build_1101_OB_Windows_x64_Portable.zip`.
 3. Extract the entire archive into a separate folder.
 4. Launch `Room Viewer.exe` from the `Room Viewer 1.0 Build 1101 OB` directory.
@@ -135,4 +135,4 @@ Electron, Chromium, Three.js, and other third-party components are subject to th
 ---
 
 **Room Viewer 1.0 · Build 1101 OB** · **2026**  
-[Releases](https://github.com/Regevedy/Room-Viewer/releases) · [Report an Issue](https://github.com/Regevedy/Room-Viewer/issues)
+[Releases](https://github.com/Regevedy/RoomViewer/releases) · [Report an Issue](https://github.com/Regevedy/RoomViewer/issues)
