@@ -4,7 +4,7 @@
 
 **Platform:** Windows 10/11 x64 · **Status:** Old Build (OB) · **Graphics:** WebGL 2.0 · **Source Technologies:** Electron, HTML/CSS/JavaScript.
 
-**Download the ready-to-use build:** [GitHub Releases](https://github.com/Regevedy/RoomViewer/releases) (once the release is published).
+**Download the ready-to-use build:** [GitHub Releases](https://github.com/Regevedy/RoomViewer/releases)
 
 ## Features
 
