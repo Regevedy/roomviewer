@@ -1,0 +1,68 @@
+{
+  "name": "3d-room-viewer",
+  "version": "1.0.1101",
+  "description": "Room Viewer 1.0 build 1101 OB — Windows 3D Room Editor",
+  "main": "src/main.js",
+  "author": "3D Room Viewer Studio",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win --x64",
+    "pack": "electron-builder --dir",
+    "build:portable": "electron-builder --win portable --x64",
+    "build:installer": "electron-builder --win nsis --x64"
+  },
+  "build": {
+    "appId": "com.studio3d.roomviewer",
+    "productName": "Room Viewer",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "assets/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "installerIcon": "assets/icon.ico",
+      "uninstallerIcon": "assets/icon.ico",
+      "installerHeaderIcon": "assets/icon.ico",
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Room Viewer",
+      "license": "LICENSE"
+    },
+    "files": [
+      "src/**/*",
+      "assets/**/*",
+      "node_modules/**/*"
+    ]
+  },
+  "dependencies": {
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "electron": "^28.1.0",
+    "electron-builder": "^24.9.1"
+  },
+  "release": {
+    "displayVersion": "1.0 build 1101 OB",
+    "releaseDate": "2026-03-13",
+    "buildNumber": 1101,
+    "channel": "OB"
+  }
+}
