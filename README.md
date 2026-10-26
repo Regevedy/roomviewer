@@ -1,6 +1,6 @@
 # Room Viewer
 
-**Room Viewer 1.0 · Build 1101 OB** — a desktop 3D editor for creating, viewing, and customizing rooms and interior scenes on Windows. The application combines room and floor management, objects, materials, lighting, and basic physics simulation in a single interface.
+**Room Viewer 1.0** — a desktop 3D editor for creating, viewing, and customizing rooms and interior scenes on Windows. The application combines room and floor management, objects, materials, lighting, and basic physics simulation in a single interface.
 
 **Platform:** Windows 10/11 x64 · **Status:** Old Build (OB) · **Graphics:** WebGL 2.0 · **Source Technologies:** Electron, HTML/CSS/JavaScript.
 
